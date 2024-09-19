@@ -1,0 +1,17 @@
+{
+  "jenkins-runner.hostConfigs": {
+      "pipelines-8080": {
+          "password": "ayoub",
+          "url": "http://localhost:8080",
+          "user": "Ayoub",
+          "userCrumbIssuer": true
+      }
+  },
+  "jenkins-runner.jobs": {
+      "ide": {
+          "isDefault": true,
+          "name": "ide",
+          "runWith": "pipelines-8080"
+      }
+  }
+}
